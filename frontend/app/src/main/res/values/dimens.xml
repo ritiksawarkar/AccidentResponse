@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Standard Spacing -->
+    <dimen name="spacing_small">8dp</dimen>
+    <dimen name="spacing_medium">16dp</dimen>
+    <dimen name="spacing_large">24dp</dimen>
+    <dimen name="spacing_xlarge">32dp</dimen>
+    <dimen name="spacing_xxlarge">48dp</dimen>
+
+    <!-- Logo Dimensions -->
+    <dimen name="splash_logo_size">120dp</dimen>
+
+    <!-- Text Sizes -->
+    <dimen name="text_size_h1">36sp</dimen>
+    <dimen name="text_size_h2">28sp</dimen>
+    <dimen name="text_size_toolbar">20sp</dimen>
+    <dimen name="text_size_body">15sp</dimen>
+    <dimen name="text_size_button">16sp</dimen>
+    <dimen name="text_size_caption">13sp</dimen>
+
+    <!-- Icon Sizes -->
+    <dimen name="icon_size_input">22dp</dimen>
+    <dimen name="icon_size_back">24dp</dimen>
+</resources>

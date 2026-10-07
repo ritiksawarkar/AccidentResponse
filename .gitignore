@@ -1,0 +1,25 @@
+# Android / Gradle
+frontend/.gradle/
+frontend/.idea/
+frontend/build/
+frontend/**/build/
+frontend/local.properties
+
+# Backend
+backend/venv/
+backend/.venv/
+backend/__pycache__/
+backend/**/*.pyc
+backend/.env
+
+# IDE
+.idea/
+*.iml
+
+# Build files
+build/
+.gradle/
+
+# OS
+.DS_Store
+Thumbs.db

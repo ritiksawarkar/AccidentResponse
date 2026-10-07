@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/background_light"
+    tools:context=".MainActivity">
+
+    <!-- Central Content Container with Professional Spacing Balance and Upward Bias -->
+    <LinearLayout
+        android:id="@+id/container_branding"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:paddingLeft="@dimen/spacing_large"
+        android:paddingRight="@dimen/spacing_large"
+        app:layout_constraintBottom_toTopOf="@+id/progress_loading"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.43"
+        app:layout_constraintVertical_chainStyle="packed">
+
+        <!-- Custom Safety Shield Logo Asset representing Protection and Emergency Response -->
+        <ImageView
+            android:id="@+id/image_logo"
+            android:layout_width="@dimen/splash_logo_size"
+            android:layout_height="@dimen/splash_logo_size"
+            android:layout_marginBottom="@dimen/spacing_xlarge"
+            android:contentDescription="@string/desc_logo"
+            android:src="@drawable/ic_safety_shield" />
+
+        <!-- Application Title: Bold Sans-Serif -->
+        <TextView
+            android:id="@+id/text_app_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="sans-serif-medium"
+            android:text="@string/app_name"
+            android:textColor="@color/primary"
+            android:textSize="@dimen/text_size_h1"
+            android:textStyle="bold" />
+
+        <!-- Primary Title: Bold Sans-Serif (Accident Avoidance System) -->
+        <TextView
+            android:id="@+id/text_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/spacing_medium"
+            android:fontFamily="sans-serif-medium"
+            android:text="@string/splash_title"
+            android:textColor="@color/text_main"
+            android:textSize="@dimen/text_size_h2"
+            android:textStyle="bold"
+            android:gravity="center" />
+
+        <!-- Secondary Title: Normal Sans-Serif (Crash Detection & GPS Notification) -->
+        <TextView
+            android:id="@+id/text_subtitle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/spacing_small"
+            android:fontFamily="sans-serif"
+            android:text="@string/splash_subtitle"
+            android:textColor="@color/text_sub"
+            android:textSize="@dimen/text_size_body"
+            android:gravity="center" />
+
+    </LinearLayout>
+
+    <!-- Subtle, Professional Material Horizontal Progress Bar -->
+    <ProgressBar
+        android:id="@+id/progress_loading"
+        style="?android:attr/progressBarStyleHorizontal"
+        android:layout_width="140dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/spacing_xxlarge"
+        android:indeterminate="true"
+        android:indeterminateTint="@color/primary"
+        app:layout_constraintBottom_toTopOf="@+id/text_footer"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/container_branding" />
+
+    <!-- Footer: Normal Sans-Serif (Vehicle Safety & Emergency Response) -->
+    <TextView
+        android:id="@+id/text_footer"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="@dimen/spacing_xlarge"
+        android:fontFamily="sans-serif"
+        android:text="@string/footer_text"
+        android:textColor="@color/text_sub"
+        android:textSize="@dimen/text_size_caption"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

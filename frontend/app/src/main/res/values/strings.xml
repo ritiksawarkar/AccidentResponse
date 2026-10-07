@@ -1,0 +1,220 @@
+<resources>
+    <string name="app_name">AccidentResponse</string>
+    <string name="splash_title">Accident Avoidance System</string>
+    <string name="splash_subtitle">Crash Detection &amp; GPS Notification</string>
+    <string name="footer_text">Vehicle Safety &amp; Emergency Response</string>
+    <string name="desc_logo">Safety Shield Icon</string>
+
+    <!-- Login Screen Strings -->
+    <string name="login_welcome">Welcome Back</string>
+    <string name="login_subtitle">Sign in to continue to your vehicle safety dashboard.</string>
+    <string name="login_email_label">Email Address</string>
+    <string name="login_email_hint">Enter your email</string>
+    <string name="login_password_label">Password</string>
+    <string name="login_password_hint">Enter your password</string>
+    <string name="login_forgot_password">Forgot Password?</string>
+    <string name="login_btn_sign_in">Sign In</string>
+    <string name="login_no_account">Don\'t have an account?</string>
+    <string name="login_create_account">Create Account</string>
+    <string name="error_email_empty">Email is required</string>
+    <string name="error_password_empty">Password is required</string>
+
+    <!-- Register Screen Strings -->
+    <string name="register_welcome">Create Account</string>
+    <string name="register_subtitle">Create your account to access your vehicle safety dashboard.</string>
+    <string name="register_name_label">Full Name</string>
+    <string name="register_name_hint">Enter your full name</string>
+    <string name="register_email_label">Email Address</string>
+    <string name="register_email_hint">Enter your email</string>
+    <string name="register_phone_label">Phone Number</string>
+    <string name="register_phone_hint">Enter your phone number</string>
+    <string name="register_password_label">Password</string>
+    <string name="register_password_hint">Create a password</string>
+    <string name="register_confirm_password_label">Confirm Password</string>
+    <string name="register_confirm_password_hint">Re-enter your password</string>
+    <string name="register_terms_consent">I agree to the Terms &amp; Conditions and Privacy Policy</string>
+    <string name="register_btn_create">Create Account</string>
+    <string name="register_already_account">Already have an account?</string>
+    <string name="register_sign_in">Sign In</string>
+
+    <!-- Forgot Password Strings -->
+    <string name="forgot_title">Forgot Password</string>
+    <string name="forgot_heading">Forgot your password?</string>
+    <string name="forgot_desc">Enter your registered email address to reset your password.</string>
+    <string name="forgot_btn_send">Send Reset Link</string>
+    <string name="forgot_back_to_login">Back to Login</string>
+    <string name="forgot_remember_password">Remember your password?</string>
+    <string name="forgot_success_title">Reset instructions</string>
+    <string name="forgot_success_desc">If this email is registered, password reset instructions will be sent to that email address.</string>
+    <string name="forgot_success_msg">Password reset instructions will be sent to your registered email.</string>
+
+    <!-- Register Validation Errors -->
+    <string name="error_name_empty">Full Name is required</string>
+    <string name="error_email_invalid">Please enter a valid email address</string>
+    <string name="error_phone_invalid">Please enter a valid 10-digit phone number</string>
+    <string name="error_password_too_short">Password must be at least 6 characters</string>
+    <string name="error_passwords_dont_match">Passwords do not match</string>
+    <string name="error_terms_required">You must agree to the Terms &amp; Conditions</string>
+
+    <!-- Dashboard Strings -->
+    <string name="dash_title">Dashboard</string>
+    <string name="dash_safety_status_label">System Safety State</string>
+    <string name="dash_status_safe">SYSTEM SAFE</string>
+    <string name="dash_status_monitoring">MONITORING</string>
+
+    <string name="dash_label_vehicle">Vehicle</string>
+    <string name="dash_label_gps">GPS</string>
+    <string name="dash_label_internet">Internet</string>
+    <string name="dash_label_system">System Health</string>
+
+    <string name="dash_value_connected">Connected</string>
+    <string name="dash_value_available">Available</string>
+    <string name="dash_value_normal">Normal</string>
+
+    <string name="dash_label_latest_event">Latest Event</string>
+    <string name="dash_value_no_event">No recent incident</string>
+
+    <string name="dash_btn_location">Live Location</string>
+    <string name="dash_btn_history">Event History</string>
+    <string name="dash_btn_contacts">Emergency Contacts</string>
+
+    <string name="dash_section_monitoring">System Monitoring</string>
+    <string name="dash_section_actions">Quick Actions</string>
+    <string name="dash_desc_view_details">View Details</string>
+    <string name="dash_welcome_greeting">Hello, Ritik</string>
+    <string name="dash_status_subtitle">All safety systems are operating normally.</string>
+
+    <string name="dash_feature_unavailable">Feature will be available in the next development stage.</string>
+
+    <!-- Live Location Strings -->
+    <string name="location_title">Live Location</string>
+    <string name="location_status_label">LOCATION STATUS</string>
+    <string name="location_status_available">GPS AVAILABLE</string>
+    <string name="location_status_unavailable">GPS UNAVAILABLE</string>
+
+    <string name="location_map_placeholder_title">MAP PREVIEW</string>
+    <string name="location_map_placeholder_desc">GPS location will appear here</string>
+    <string name="location_demo_label">Sample GPS data (Simulation)</string>
+
+    <string name="location_card_title">Vehicle Location</string>
+    <string name="location_label_lat">Latitude</string>
+    <string name="location_label_long">Longitude</string>
+    <string name="location_label_updated">Last Updated</string>
+    <string name="location_label_status">Location Status</string>
+
+    <string name="location_mock_lat">21.1458° N</string>
+    <string name="location_mock_long">79.0882° E</string>
+    <string name="location_mock_updated">Just now</string>
+    <string name="location_mock_status">Available</string>
+
+    <string name="location_btn_refresh">Refresh Location</string>
+    <string name="location_refresh_msg">Live GPS integration will be available in the next development stage.</string>
+    <string name="desc_back">Go back</string>
+
+    <!-- Event History Strings -->
+    <string name="history_title">Event History</string>
+    <string name="history_desc">Review previous vehicle and system events.</string>
+    <string name="history_total_label">TOTAL EVENTS</string>
+    <string name="history_recorded_label">Recorded safety events</string>
+    <string name="history_recent_label">Recent Events</string>
+    <string name="history_dev_label">MOCK DATA</string>
+    <string name="history_sample_label">Sample Event Data</string>
+    <string name="history_empty_title">No safety events yet</string>
+    <string name="history_empty_desc">Your vehicle and system events will appear here.</string>
+    <string name="history_toast_details">Event details will be available in the next development stage.</string>
+    <string name="history_label_location">Location</string>
+    <string name="history_label_id">Event ID</string>
+
+    <!-- Emergency Contacts Strings -->
+    <string name="contacts_title">Emergency Contacts</string>
+    <string name="contacts_desc">Manage the contacts who should be notified during an emergency.</string>
+    <string name="contacts_summary_label">PROTECTION NETWORK</string>
+    <string name="contacts_summary_recorded">Saved Contacts</string>
+    <string name="contacts_list_header">Your Contacts</string>
+    <string name="contacts_section_primary">PRIMARY CONTACT</string>
+    <string name="contacts_section_secondary">OTHER CONTACTS</string>
+    <string name="contacts_sample_label">Sample Contact Data</string>
+    <string name="contacts_empty_title">No Emergency Contacts</string>
+    <string name="contacts_empty_desc">Add a trusted contact who can be notified during an emergency.</string>
+    <string name="contacts_btn_add">Add Emergency Contact</string>
+    <string name="contacts_badge_primary">PRIMARY</string>
+    <string name="contacts_badge_secondary">SECONDARY</string>
+
+    <string name="contacts_dialog_add_title">Add Emergency Contact</string>
+    <string name="contacts_dialog_edit_title">Edit Emergency Contact</string>
+    <string name="contacts_label_name">Full Name</string>
+    <string name="contacts_hint_name">Enter full name</string>
+    <string name="contacts_label_relationship">Relationship</string>
+    <string name="contacts_hint_relationship">e.g. Brother, Parent, Friend</string>
+    <string name="contacts_label_phone">Phone Number</string>
+    <string name="contacts_hint_phone">Enter phone number</string>
+    <string name="contacts_label_is_primary">Set as Primary Contact</string>
+
+    <string name="contacts_btn_save">Save</string>
+    <string name="contacts_btn_cancel">Cancel</string>
+    <string name="contacts_btn_delete">Delete</string>
+
+    <string name="contacts_confirm_delete_title">Delete Emergency Contact?</string>
+    <string name="contacts_confirm_delete_msg">Are you sure you want to delete this contact?</string>
+
+    <string name="contacts_error_name">Please enter full name.</string>
+    <string name="contacts_error_relationship">Please enter relationship.</string>
+    <string name="contacts_error_phone">Please enter phone number.</string>
+    <string name="contacts_error_phone_invalid">Please enter a valid phone number.</string>
+
+    <string name="contacts_action_edit">Edit</string>
+    <string name="contacts_action_delete">Delete</string>
+
+    <string name="contacts_type_family">Family Contact</string>
+    <string name="contacts_type_friend">Friend Contact</string>
+    <string name="contacts_type_other">Emergency Contact</string>
+
+    <!-- Profile & Settings Strings -->
+    <string name="profile_title">Profile &amp; Settings</string>
+    <string name="profile_name_default">Ritik Sawarkar</string>
+    <string name="profile_email_default">ritiksawarkar06@gmail.com</string>
+    <string name="profile_phone_default">+91 XXXXX XXXXX</string>
+
+    <string name="profile_section_account">Account Information</string>
+    <string name="profile_label_name">Name</string>
+    <string name="profile_label_email">Email</string>
+    <string name="profile_label_phone">Phone</string>
+    <string name="profile_label_role">Vehicle User</string>
+    <string name="profile_value_role">Active</string>
+    <string name="profile_btn_edit">Edit Profile</string>
+
+    <string name="profile_section_vehicle">Vehicle</string>
+    <string name="profile_label_status">Vehicle Status</string>
+    <string name="profile_value_connected">Connected</string>
+    <string name="profile_label_safety">Safety System</string>
+    <string name="profile_value_active">Active</string>
+    <string name="profile_label_device">Device</string>
+    <string name="profile_value_device">ESP32 Safety Unit</string>
+
+    <string name="profile_section_settings">Settings</string>
+    <string name="profile_label_notifications">Notifications</string>
+    <string name="profile_label_alerts">Emergency Alerts</string>
+    <string name="profile_label_location">Location Services</string>
+    <string name="profile_value_available">Available</string>
+
+    <string name="profile_section_about">About</string>
+    <string name="profile_label_version">Version</string>
+    <string name="profile_value_version">Prototype v1.0</string>
+    <string name="profile_label_project">Project</string>
+    <string name="profile_value_project">Accident Avoidance System with Crash Detection &amp; GPS Notification</string>
+
+    <string name="profile_btn_logout">Logout</string>
+    <string name="logout_confirm_title">Logout</string>
+    <string name="logout_confirm_msg">Are you sure you want to logout?</string>
+
+    <string name="profile_dialog_edit_title">Edit Profile</string>
+    <string name="profile_section_vehicle_safety">Vehicle &amp; Safety</string>
+    <string name="profile_section_notifications">Notifications</string>
+    <string name="profile_desc_notifications">Receive system notifications</string>
+    <string name="profile_desc_alerts">Receive critical safety alerts</string>
+    <string name="profile_section_location">Location</string>
+    <string name="profile_desc_location">Allow the application to access vehicle/location information.</string>
+    <string name="profile_label_about">About AccidentResponse</string>
+    <string name="profile_value_version_clean">Version 1.0</string>
+    <string name="profile_btn_logout_clean">Log Out</string>
+</resources>

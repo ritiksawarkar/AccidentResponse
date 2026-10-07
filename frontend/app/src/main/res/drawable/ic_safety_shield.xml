@@ -1,0 +1,20 @@
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="120dp"
+    android:height="120dp"
+    android:viewportWidth="24"
+    android:viewportHeight="24">
+
+    <!-- Outer Shield for Protection -->
+    <path
+        android:fillColor="@color/primary"
+        android:pathData="M12,2L4,5v6c0,5.55 3.84,10.74 8,12c4.16,-1.26 8,-6.45 8,-12V5L12,2zM18,11c0,4.52 -2.93,8.75 -6,9.88C8.93,19.75 6,15.52 6,11V6.3l6,-2.25l6,2.25V11z"/>
+
+    <!-- Inner Automotive Pulse/Telemetry line -->
+    <path
+        android:fillColor="@color/primary"
+        android:pathData="M7,12h3l1,-2l2,4l1,-2h3"
+        android:strokeWidth="1.5"
+        android:strokeColor="@color/primary"
+        android:strokeLineCap="round"
+        android:strokeLineJoin="round"/>
+</vector>
